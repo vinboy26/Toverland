@@ -1,0 +1,81 @@
+/* Algemene stijl voor de body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stijl voor de headersectie */
+header {
+    background-color: aqua;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Stijl voor de navigatiemenu-items */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Stijl voor de hoofdtekst van de pagina */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+/* Stijl voor de welkomstsectie */
+.welkom-section {
+    text-align: center; /* Centreer de inhoud van de sectie */
+    padding: 20px; /* Voeg wat ruimte rondom de inhoud toe */
+    background-color: #fff; /* Achtergrondkleur van de sectie */
+    border-radius: 5px; /* Afgeronde hoeken voor de sectie */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Schaduw voor de sectie */
+}
+
+.welkom-section h1 {
+    font-size: 32px; /* Grootte van de kop */
+    color: #333; /* Tekstkleur voor de kop */
+    margin-bottom: 10px; /* Voeg wat ruimte onder de kop toe */
+}
+
+.welkom-section p {
+    font-size: 18px; /* Grootte van de alinea */
+    color: #666; /* Tekstkleur voor de alinea */
+    line-height: 1.6; /* Regelafstand voor de alinea */
+}

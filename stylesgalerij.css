@@ -1,0 +1,96 @@
+/* Stijl voor de galerijpagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Stijl voor de navigatiemenu-items */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Stijl voor de galerijsectie */
+/* Stijl voor de galerijsectie */
+section {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Gebruik flexbox om de afbeeldingen naast elkaar te plaatsen */
+    flex-wrap: wrap; /* Laat de afbeeldingen naar de volgende rij gaan als ze niet in de beschikbare ruimte passen */
+    justify-content: space-between; /* Verdeel de beschikbare ruimte tussen de afbeeldingen */
+}
+
+/* Stijl voor afbeeldingen in de galerij */
+.galerij-img {
+    width: 200px; /* Breedte van de afbeeldingen */
+    height: auto;
+    margin-right: 10px; /* Voeg wat ruimte tussen de afbeeldingen toe */
+    margin-bottom: 10px;
+    flex: 0 0 calc(33.33% - 10px); /* Verdeel de ruimte in drie kolommen en voeg wat marge toe */
+}
+
+
+
+
+
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+
+
+/* Stijl voor het geluidsbestand */
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Stijl voor de terug-naar-boven link */
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+}

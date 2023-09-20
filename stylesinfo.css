@@ -1,0 +1,94 @@
+/* Algemene stijl voor de pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Stijl voor de sectie met informatie */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 560px; /* Breedte van de iframe */
+    height: 315px; /* Hoogte van de iframe */
+    border: none; /* Verwijder de iframe-rand */
+    margin-left: 10px; /* Voeg wat ruimte toe tussen de iframe en de tekst */
+}
+
+/* Stijl voor de link naar de PDF */
+a.pdf-link {
+    display: block;
+    background-color: #007bff;
+    color:#333;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+a.pdf-link:hover {
+    background-color: #0056b3;
+}
+/* Stijl voor de navigatiemenu-items */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.iframe-container {
+    display: flex; /* Plaats de iframe-elementen naast elkaar */
+    align-items: center; /* Verticaal centreren van de items */
+}
+
+/* Stijl voor de iframe-elementen */
+.iframe-container iframe {
+    width: 560px; /* Breedte van de iframe */
+    height: 315px; /* Hoogte van de iframe */
+    border: none; /* Verwijder de iframe-rand */
+    margin-left: 10px; /* Voeg wat ruimte toe tussen de iframe en de tekst */
+}
